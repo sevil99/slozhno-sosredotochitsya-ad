@@ -31,13 +31,12 @@
     display: none;
   }
 
-  :root:not(.theme-auto):not(.theme-dark):not(.theme-light)
-    .header__theme-menu-button_type_light {
+  :root:not(.theme-dark):not(.theme-light) .header__theme-menu-button_type_light {
     border-color: var(--accent-color);
     pointer-events: none;
   }
 
-  :root:not(.theme-auto):not(.theme-dark):not(.theme-light)
+  :root:not(.theme-dark):not(.theme-light)
     .header__theme-menu-button_type_auto.header__theme-menu-button_active {
     border-color: transparent;
     pointer-events: auto;
