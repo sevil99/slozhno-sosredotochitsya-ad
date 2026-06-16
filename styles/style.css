@@ -303,6 +303,16 @@
   }
 }
 
+@media (768px <= width < 1024px) {
+  .content {
+    gap: 72px;
+  }
+
+  .content-section {
+    grid-template-columns: 236px 1fr 1fr;
+  }
+}
+
 @media (width >= 1024px) {
   .header__theme-menu {
     align-self: start;
