@@ -30,4 +30,16 @@
   :root:not(.theme-dark) .header__rec {
     display: none;
   }
+
+  :root:not(.theme-auto):not(.theme-dark):not(.theme-light)
+    .header__theme-menu-button_type_light {
+    border-color: var(--accent-color);
+    pointer-events: none;
+  }
+
+  :root:not(.theme-auto):not(.theme-dark):not(.theme-light)
+    .header__theme-menu-button_type_auto.header__theme-menu-button_active {
+    border-color: transparent;
+    pointer-events: auto;
+  }
 }
